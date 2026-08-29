@@ -1,0 +1,17 @@
+role,tcode,tcode_description
+Z_VENDOR_MASTER_MAINT,FK01,Create Vendor Master Record
+Z_VENDOR_MASTER_MAINT,FK02,Change Vendor Master Record
+Z_AP_PAYMENT_PROCESSING,F110,Run Automatic Payment Run
+Z_AP_PAYMENT_PROCESSING,F-53,Post Outgoing Payment
+Z_PURCHASING_AGENT,ME21N,Create Purchase Order
+Z_PURCHASING_AGENT,ME22N,Change Purchase Order
+Z_GOODS_RECEIPT,MIGO,Post Goods Receipt
+Z_INVOICE_VERIFICATION,MIRO,Enter Incoming Invoice
+Z_AP_CLERK,FB60,Enter Vendor Invoice (FI)
+Z_GL_MAINTENANCE,FS00,Maintain GL Master Record
+Z_JOURNAL_ENTRY,FB50,Post General Journal Entry
+Z_BANK_RECON,FF67,Manual Bank Statement Processing
+Z_BASIS_ADMIN,SU01,Maintain User Master Record
+Z_BASIS_ADMIN,PFCG,Maintain Roles
+Z_HR_PAYROLL,PA30,Maintain HR Master Data
+Z_HR_PAYROLL,PC00_M99_CIPE,Execute Payroll Run

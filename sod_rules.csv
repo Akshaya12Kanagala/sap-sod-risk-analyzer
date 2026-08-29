@@ -1,0 +1,8 @@
+risk_id,tcode_1,tcode_2,risk_level,business_risk_description
+SOD-001,FK01,F110,High,User can create a fictitious vendor and then run the payment that pays that same vendor - classic fraud pattern (fake vendor scheme).
+SOD-002,FK02,F-53,High,User can alter vendor bank details and then post an outgoing payment - enables payment diversion fraud.
+SOD-003,ME21N,MIGO,Medium,User can create a purchase order and then record its own goods receipt - can confirm goods that were never actually received.
+SOD-004,MIGO,MIRO,Medium,User can record goods receipt and also process the vendor invoice - can approve invoices for goods that were never received.
+SOD-005,FB50,FF67,Medium,User can post manual journal entries and also perform bank reconciliation - can post a fraudulent entry and hide it during reconciliation.
+SOD-006,SU01,PFCG,High,User can create/modify user accounts and also design roles - can grant themselves any access in the system with no independent oversight.
+SOD-007,PA30,PC00_M99_CIPE,High,"User can change employee master data (e.g. bank account, salary) and also execute the payroll run - enables payroll fraud."
