@@ -14,16 +14,16 @@ Security/GRC risk consulting teams deliver for clients.
    (High/Medium/Low), and explains the business risk in plain language
 6. Outputs an audit-style CSV report and a risk-by-user chart
 
-## Why I built it this way
+<!-- ## Why I built it this way
 Real SAP tenants aren't handed out to interns. But the actual skill EY's
 SAP Security/GRC teams are hiring for isn't "can you click through PFCG" —
 it's "do you understand *why* certain access combinations are dangerous,
 and can you reason about access at the level of controls, not just
 transactions." This project proves that understanding using tools I
 already have (Python, CSV, basic data modeling) instead of claiming SAP
-experience I don't yet have.
+experience I don't yet have. -->
 
-## How this connects to EY specifically
+<!-- ## How this connects to EY specifically
 - EY's Risk Consulting practice runs SAP Application Security and SAP GRC
   Access Control engagements: role design, user provisioning, access
   reviews, and SoD analysis — exactly what this script does in miniature.
@@ -38,7 +38,7 @@ experience I don't yet have.
   technology delivery) as the value EY provides. SoD/access-risk work is
   literally trust-building infrastructure inside client organizations —
   it's a very direct, concrete expression of that purpose, not just a
-  slogan I'm repeating back.
+  slogan I'm repeating back. -->
 
 ## How to run it
 ```
@@ -46,10 +46,10 @@ pip install matplotlib
 python sod_analyzer.py
 ```
 
-## What I'd extend next (good talking points in an interview)
+<!-- ## What I'd extend next 
 - Cross-system SoD (SAP + non-SAP apps, like real GRC tools do)
 - Mitigating controls layer (some conflicts are accepted risk with a
   compensating control — e.g. a monthly review report)
 - Firefighter/emergency access logging simulation
 - A simple risk-scoring model that weights by financial materiality,
-  not just conflict count
+  not just conflict count -->
